@@ -36,12 +36,6 @@ module.exports = {
         path: path.join(__dirname, DLL),
         library: '[name]_[hash]',
     },
-/*    resolve: {
-        extensions: ['.js', '.vue', '.json'],
-        alias: {
-            'vue$': 'vue/dist/vue.esm.js',
-        }
-    },*/
     plugins: [
         // 定义环境变量为开发环境
         new webpack.DefinePlugin({
